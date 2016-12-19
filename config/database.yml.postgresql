@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: react_rails_examples_development
+  pool: 5
+  username: postgres
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: react_rails_examples_test
+  pool: 5
+  username: postgres
